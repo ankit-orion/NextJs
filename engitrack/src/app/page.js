@@ -71,15 +71,18 @@ export default function HomePage() {
           services like resume building and career counseling.
         </p>
       </div>
-      <div className="lg:w-1/2 mt-8 lg:mt-0 lg:ml-12 flex justify-center lg:justify-end">
-        <Image
-          src="https://media.istockphoto.com/id/1587604256/photo/portrait-lawyer-and-black-woman-with-tablet-smile-and-happy-in-office-workplace-african.jpg?b=1&s=612x612&w=0&k=20&c=4K6Bf1I6OnKzJmLaqVArPqIBTZ3VnDGJfx6hohXb1pg="
-          alt="hero"
-          width={500}
-          height={500}
-          className="rounded-lg"
-        />
-      </div>
+      <div className="lg:w-1/2 mt-8 lg:mt-0 lg:ml-12 flex justify-center lg:justify-end relative">
+  <Image
+    src="https://media.istockphoto.com/id/1587604256/photo/portrait-lawyer-and-black-woman-with-tablet-smile-and-happy-in-office-workplace-african.jpg?b=1&s=612x612&w=0&k=20&c=4K6Bf1I6OnKzJmLaqVArPqIBTZ3VnDGJfx6hohXb1pg="
+    alt="hero"
+    width={500}
+    height={500}
+    className="rounded-lg"
+  />
+  <div className="absolute bottom-[-30px] lg:bottom-[-40px] left-1/2 transform -translate-x-1/2 bg-black text-white px-6 py-3 rounded-md shadow-lg text-lg lg:text-xl">
+    Trusted by 150+ Students
+  </div>
+</div>
     </div>
     </div>
   );
