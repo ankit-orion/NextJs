@@ -1,7 +1,8 @@
-export default function Explore(){
+import Explore from "@/components/Explore"
+export default function ExploreRoute(){
     return(
         <>
-        <h1>Explore</h1>
+        <Explore/>
         </>
     )
 }
