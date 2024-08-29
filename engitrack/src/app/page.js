@@ -31,6 +31,17 @@ export default function HomePage() {
         disabled:opacity-50">Apply Now</button>
         </Link>
       </div>
+
+      {/* Another button here */}
+      <div>
+        <Link href= "/explore">
+        <button className="bg-transparent text-black hover:text-gray-700 h-12 
+        px-6 mt-8 rounded-md text-sm font-medium ring-offset-background 
+        transition-colors focus-visible:outline-none focus-visible:ring-2 
+        focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none 
+        disabled:opacity-50">Explore</button>
+        </Link>
       </div>
+    </div>
   );
 }
