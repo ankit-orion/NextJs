@@ -7,6 +7,11 @@ const roboto = Roboto({
   display: 'swap',
 })
 
+export const metadata = {
+  title: 'Engi Track',
+  description: 'Engi Track is a leading online platform in India that connects engineering students with internships and offers services like resume building and career counseling.',
+}
+
 export default function HomePage() {
   return (
     <div className={`flex flex-col items-center justify-start min-h-screen text-center px-4 py-8 pt-16 sm:pt-28 ${roboto.className}`}>
