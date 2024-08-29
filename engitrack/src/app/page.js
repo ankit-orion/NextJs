@@ -10,6 +10,14 @@ const roboto = Roboto({
 export const metadata = {
   title: 'Engi Track',
   description: 'Engi Track is a leading online platform in India that connects engineering students with internships and offers services like resume building and career counseling.',
+  openGraph:{
+    images:[
+      {
+        url: '/engitrack/public/vercel.svg',
+        alt: 'Engi Track',
+      }
+    ]
+  }
 }
 
 export default function HomePage() {
