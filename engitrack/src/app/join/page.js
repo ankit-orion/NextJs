@@ -1,7 +1,8 @@
-export default function JoinForm(){
+import JoinForm from "@/components/JoinForm"
+export default function Form(){
     return(
         <>
-        <h1>Join Us</h1>
+        <JoinForm/>
         </>
     )
 }
