@@ -18,7 +18,7 @@ export default function HomePage() {
       </div>
 
       <p className="mt-8 sm:mt-12 lg:mt-16">
-        Unlock endless opportunities in the world of corporate with Engitrack's comprehensive internship program.
+        Unlock endless opportunities in the world of corporate <br/> with Engitrack's comprehensive internship program.
       </p>
 
       {/* add a button here */}
@@ -41,6 +41,13 @@ export default function HomePage() {
         focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none 
         disabled:opacity-50">Explore</button>
         </Link>
+      </div>
+
+      <div className="max-w-4xl mx-auto pt-40">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal leading-tight">
+          <span className="block mb-2 sm:mb-4">Empowering Students</span>
+          <span className="block mb-2 sm:mb-4">Through Opportutnities</span>
+        </h1>
       </div>
     </div>
   );
