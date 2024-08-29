@@ -1,4 +1,5 @@
 import { Roboto } from 'next/font/google'
+import Image from 'next/image';
 import Link from "next/link";
 const roboto = Roboto({
   weight: ['400', '700'],
@@ -36,19 +37,37 @@ export default function HomePage() {
       <div>
         <Link href= "/explore">
         <button className="bg-transparent text-black hover:text-gray-700 h-12 
-        px-6 mt-8 rounded-md text-sm font-medium ring-offset-background 
+        px-6 mt-8 rounded-md text-l font-medium ring-offset-background 
         transition-colors focus-visible:outline-none focus-visible:ring-2 
         focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none 
         disabled:opacity-50">Explore</button>
         </Link>
       </div>
 
-      <div className="max-w-4xl mx-auto pt-40">
+      <div className="max-w-4xl mx-auto pt-16 flex flex-col lg:flex-row items-center lg:items-start">
+      <div className="lg:w-1/2 text-center lg:text-left">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal leading-tight">
           <span className="block mb-2 sm:mb-4">Empowering Students</span>
-          <span className="block mb-2 sm:mb-4">Through Opportutnities</span>
+          <span className="block mb-2 sm:mb-4">Through Opportunities</span>
         </h1>
+        <p className="mt-8 sm:mt-12 lg:mt-16">
+          Engitrack is a leading online platform in India that
+          <br />
+          connects engineering students with internships and offers
+          <br />
+          services like resume building and career counseling.
+        </p>
       </div>
+      <div className="lg:w-1/2 mt-8 lg:mt-0 lg:ml-12 flex justify-center lg:justify-end">
+        <Image
+          src="https://media.istockphoto.com/id/1587604256/photo/portrait-lawyer-and-black-woman-with-tablet-smile-and-happy-in-office-workplace-african.jpg?b=1&s=612x612&w=0&k=20&c=4K6Bf1I6OnKzJmLaqVArPqIBTZ3VnDGJfx6hohXb1pg="
+          alt="hero"
+          width={500}
+          height={500}
+          className="rounded-lg"
+        />
+      </div>
+    </div>
     </div>
   );
 }
