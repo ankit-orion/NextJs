@@ -132,6 +132,7 @@ export default function HomePage() {
         </div>
       </div>
 
+      {/*  */}
       <div className="max-w-7xl mx-auto px-4 pt-12 sm:pt-16 md:pt-20 lg:pt-24">
       <div className="text-center mb-8 sm:mb-12">
         <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-normal leading-tight mb-4 sm:mb-6">
