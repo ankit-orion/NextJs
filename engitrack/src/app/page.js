@@ -21,10 +21,28 @@ export const metadata = {
   },
 };
 
+const newdata = [
+  {
+    title: "Resume Building Services Available",
+    description: "Let us help you create a standout resume to land your dream job.",
+    image: "https://images.unsplash.com/photo-1562564055-71e051d33c19?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    title: "Interview Preparation",
+    description: "Get ready for your dream job with our interview preparation services.",
+    image: "https://images.unsplash.com/photo-1526328828355-69b01701ca6a?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    title: "Career Counseling",
+    description: "Get personalized career counseling from industry experts.",
+    image: "https://images.unsplash.com/photo-1561489422-45de3d015e3e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
+];
+
 // card component here
 const Card = () => (
   <div className="rounded-lg overflow-hidden shadow-lg bg-white">
-    <div className="relative h-48 w-full">
+    <div className="relative h-80 w-full">
       <Image
         src="https://media.istockphoto.com/id/1587604256/photo/portrait-lawyer-and-black-woman-with-tablet-smile-and-happy-in-office-workplace-african.jpg?b=1&s=612x612&w=0&k=20&c=4K6Bf1I6OnKzJmLaqVArPqIBTZ3VnDGJfx6hohXb1pg="
         alt="UI/UX Review"
@@ -38,25 +56,6 @@ const Card = () => (
       <p className="text-gray-700 text-sm sm:text-base">
       Let us help you create a standout resume to land your dream job.
       </p>
-    </div>
-    <div className="px-4 sm:px-6 py-4 flex justify-between items-center">
-      <div className="flex -space-x-2">
-        <Image
-          src="/api/placeholder/24/24"
-          alt="User 1"
-          width={24}
-          height={24}
-          className="rounded-full border-2 border-white"
-        />
-        <Image
-          src="/api/placeholder/24/24"
-          alt="User 2"
-          width={24}
-          height={24}
-          className="rounded-full border-2 border-white"
-        />
-      </div>
-      <span className="text-xs sm:text-sm text-gray-500">January 10</span>
     </div>
   </div>
 );
