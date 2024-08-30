@@ -3,6 +3,7 @@ import { Roboto } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 import { ContactForm } from "@/components/component/ContactForm";
+import Component from "@/components/Component";
 
 const roboto = Roboto({
   weight: ["400", "700"],
@@ -130,6 +131,7 @@ export default function HomePage() {
         </div>
       </div>
       <ContactForm/>
+      <Component/>
     </div>
   );
 
