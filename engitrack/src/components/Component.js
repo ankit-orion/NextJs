@@ -13,13 +13,13 @@ export default function Component() {
           name="Harshit Pandey"
           location="Mumbai"
           testimonial="I am grateful to Engitrack for guiding me through the internship process. Excellent service!"
-          imageSrc="/placeholder.svg?height=50&width=50"
+          imageSrc="https://images.unsplash.com/photo-1667655861998-46fe4c29a4cf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         />
         <TestimonialCard
           name="Rohit Kumar"
           location="Delhi"
           testimonial="Engitrack helped me secure a great internship opportunity. Highly recommend!"
-          imageSrc="/placeholder.svg?height=50&width=50"
+          imageSrc="https://images.unsplash.com/photo-1604177091072-b7b677a077f6?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         />
       </div>
     </div>
