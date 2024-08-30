@@ -33,10 +33,10 @@ const Card = () => (
       />
     </div>
     <div className="px-4 sm:px-6 py-4">
-      <h2 className="font-bold text-xl mb-2">UI/UX Review Check</h2>
+      <h2 className="font-bold text-xl mb-2">Resume Building Services Available
+      </h2>
       <p className="text-gray-700 text-sm sm:text-base">
-        Because it's about motivating the doers. Because I'm here to follow my
-        dreams and inspire others.
+      Let us help you create a standout resume to land your dream job.
       </p>
     </div>
     <div className="px-4 sm:px-6 py-4 flex justify-between items-center">
@@ -113,15 +113,14 @@ export default function HomePage() {
             <span className="block">Through Opportunities</span>
           </h1>
           <p className="mt-6 sm:mt-8 lg:mt-12 text-lg">
-            Engitrack is a leading online platform in India that connects
-            engineering students with internships and offers services like
+            Engitrack is a leading online platform in India that connects 
+            engineering students <br className="hidden sm:inline" /> with internships and offers services like
             resume building and career counseling.
           </p>
         </div>
         <div className="lg:w-1/2 lg:ml-12 flex justify-center lg:justify-end relative">
-          <Image
-            src="https://media.istockphoto.com/id/1587604256/photo/portrait-lawyer-and-black-woman-with-tablet-smile-and-happy-in-office-workplace-african.jpg?b=1&s=612x612&w=0&k=20&c=4K6Bf1I6OnKzJmLaqVArPqIBTZ3VnDGJfx6hohXb1pg="
-            alt="hero"
+          <Image 
+          src="https://images.unsplash.com/photo-1591980607162-923fa31e8240?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="hero"
             width={500}
             height={500}
             className="rounded-lg"

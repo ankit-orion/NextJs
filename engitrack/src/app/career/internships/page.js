@@ -1,7 +1,9 @@
+import JoinForm from "@/components/JoinForm";
+
 export default function Internship() {
     return (
-        <div>
-        <h1>Internship</h1>
-        </div>
+        <>
+        <JoinForm />
+        </>
     );
 }
